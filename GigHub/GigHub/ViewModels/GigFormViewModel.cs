@@ -11,7 +11,7 @@ namespace GigHub.ViewModels
         public string Venue { get; set; }
         public string Date  { get; set; }
         public string Time { get; set; }
-        public int Genre { get; set; }
+        public byte Genre { get; set; }
         public List<Genre> Genres { get; set; }
     }
 }

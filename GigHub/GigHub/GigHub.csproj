@@ -218,6 +218,14 @@
     <Compile Include="Migrations\201802111519566_generate genres.Designer.cs">
       <DependentUpon>201802111519566_generate genres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201802111826086_foreign keys.cs" />
+    <Compile Include="Migrations\201802111826086_foreign keys.Designer.cs">
+      <DependentUpon>201802111826086_foreign keys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802111830269_genreid2.cs" />
+    <Compile Include="Migrations\201802111830269_genreid2.Designer.cs">
+      <DependentUpon>201802111830269_genreid2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -314,6 +322,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201802111519566_generate genres.resx">
       <DependentUpon>201802111519566_generate genres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802111826086_foreign keys.resx">
+      <DependentUpon>201802111826086_foreign keys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802111830269_genreid2.resx">
+      <DependentUpon>201802111830269_genreid2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
